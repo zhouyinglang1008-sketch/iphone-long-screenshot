@@ -1,0 +1,17 @@
+{
+  "id": "./",
+  "name": "长图工坊 · 长截图拼接",
+  "short_name": "长图工坊",
+  "description": "在设备本机把连续截图拼成一张长图。",
+  "lang": "zh-CN",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f5f7f2",
+  "theme_color": "#f5f7f2",
+  "icons": [
+    { "src": "./icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
+
