@@ -4,12 +4,15 @@
 
 ## 在 iPhone 上使用
 
-此项目是网页应用，需要通过 HTTPS 地址打开后才能添加到主屏幕。将本目录作为 GitHub 仓库根目录上传后，GitHub Actions 会发布到 GitHub Pages：
+此项目是网页应用，需要通过 HTTPS 地址打开后才能添加到主屏幕。将本目录作为 GitHub 仓库根目录上传后，可以用 GitHub Pages 发布：
 
 1. 在 GitHub 新建一个空仓库，把本目录中的文件上传到仓库根目录。
 2. 打开仓库的 **Settings → Pages**，将构建来源设为 **GitHub Actions**。
-3. 推送代码后，等待 Actions 中的 **Deploy to GitHub Pages** 完成，打开生成的 HTTPS 页面地址。
-4. 在 iPhone 上用 Safari 打开页面，点分享按钮，选择“添加到主屏幕”。
+3. 打开仓库的 **Actions → Deploy to GitHub Pages → Run workflow**，手动启动发布。
+4. 等待工作流完成，打开生成的 HTTPS 页面地址。
+5. 在 iPhone 上用 Safari 打开页面，点分享按钮，选择“添加到主屏幕”。
+
+GitHub Free 仅支持从公开仓库发布 Pages；发布的网站可被互联网访问。请不要把密码、密钥等敏感信息放进仓库。
 
 Apple 的说明：[将 Safari 中的网站添加到 iPhone 主屏幕](https://support.apple.com/zh-cn/guide/iphone/iph42ab2f3a7/ios)。
 
